@@ -10,17 +10,25 @@
 </head>
 
 <body>
-  <h4>Weather App</h4>
-  <form action="" id="form">
-    <input type="text" id="input" required placeholder="Enter city">
-    <button id="button">Search</button>
-    <p id="fail"></p>
-  </form>
-  <div class="wrapper">
-    <p id="city"></p>
-    <p id="country"></p>
-    <p id="temp"></p>
-    <p id="descrip"></p>
+  <div class="main">
+    <h4>Weather App</h4>
+    <form action="" id="form">
+      <input type="text" id="input" required placeholder="Enter city">
+      <button id="button">Search</button>
+      <button id="language">English</button>
+      <p id="fail"></p>
+    </form>
+    <div class="video-wrapper">
+      <video playsinline autoplay muted loop></video>
+    </div>
+    <div class="content">
+      <div class="wrapper">
+        <p id="city"></p>
+        <p id="country"></p>
+        <p id="temp"></p>
+        <p id="descrip"></p>
+      </div>
+    </div>
   </div>
   <script src="./script.js"></script>
 </body>

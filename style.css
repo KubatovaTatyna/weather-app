@@ -41,3 +41,26 @@ button {
   border-top-right-radius: .4rem;
   border-bottom-right-radius: .4rem;
 }
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.video-wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  position: fixed;
+  top: 20%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
