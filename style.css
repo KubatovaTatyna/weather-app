@@ -6,6 +6,10 @@ body {
   box-sizing: border-box;
 }
 
+div:first-child {
+  padding-bottom: 1.5rem;
+}
+
 #city {
   font-size: 2rem;
   font-weight: 500;
