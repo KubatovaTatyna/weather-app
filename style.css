@@ -47,7 +47,7 @@ video {
   left: 0;
 }
 .video-wrapper {
-  height: 100vh;
+  height: calc(100vh - 170px);
   position: relative;
   overflow: hidden;
   text-align: center;
