@@ -44,6 +44,9 @@ function getApi() {
     .catch(() => {
       fail.innerHTML = "this city is not find";
       city.innerHTML = " ";
+      temp.innerHTML = " ";
+      descrip.innerHTML = " ";
+      country.innerHTML = " ";
     });
 }
 
