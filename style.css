@@ -47,7 +47,6 @@ video {
   left: 0;
 }
 .video-wrapper {
-  width: 100vw;
   height: 100vh;
   position: relative;
   overflow: hidden;

@@ -6,16 +6,8 @@ let input = document.getElementById("input");
 let form = document.getElementById("form");
 let fail = document.getElementById("fail");
 let video = document.querySelector("video");
-let language = document.getElementById("language");
 
-video.src = './assets/extreme.mp4'
-
-// const lan = ['en', 'ru'];
-// language.addEventListener('click', () => {
-//   if(language.innerText = 'English') {
-//     language.innerText = 'Russian';
-//   }
-// })
+video.src = './assets/extreme.mp4';
 
 function convert(val) {
   return (val - 273).toFixed();
